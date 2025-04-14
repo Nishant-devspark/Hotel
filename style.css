@@ -1882,16 +1882,13 @@ border-radius: 50%;
   align-items: center;
   justify-content: center;
   padding: 10px;
- 
 }
 .enjoy-son{
   height: 152.2px;
   width: 80%;
   /* border: 2px solid black; */
   display: flex;
-  align-items: center;
-  
-  
+  align-items: center;   
 }
 .title{
   height: 94px;
@@ -1899,27 +1896,26 @@ border-radius: 50%;
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-
 }
 .title h5{
   margin: 0 0 15px;
-    /* font-size: 18px; */
-    font-size: 16px;
-    color: #c19d68;
-    font-weight: 500;
-    text-transform: uppercase;
-    /* display: inline-block; */
+  /* font-size: 18px; */
+  font-size: 16px;
+  color: #c19d68;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* display: inline-block; */
 }
 .title h3{
   margin: 0 0 0;
-    font-size: 38px;
-    line-height: 45px;
-    text-transform: uppercase;
-    color: #1e1e1e;
-    font-family: 'Cormorant Garamond', serif;
-    font-style: normal;
-    font-weight: 600;
-    /* display: inline; */
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: 600;
+  /* display: inline; */
 }
 .btn-en{
   height: 53.6px;
@@ -1927,27 +1923,115 @@ border-radius: 50%;
   margin: 8px 0  0;
   /* display: inline; */
   display: flex;
-  align-items: center;
-justify-content: end;
+  align-items: center; 
+  justify-content: end;
   /* border: 2px solid red; */
-
 }
 .btn-en button{
   height: 53.6px;
   width: 187.54px;
   display: inline-block;
-    background: #c19d68;
-    padding: 13px 28px;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: "Cormorant Garamond";
-    position: relative;
-    z-index: 1;
-    border: 1px solid #c19d68;
-    transition: 0.5s;
-    box-shadow: none;
+  background: #c19d68;
+  padding: 13px 28px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Cormorant Garamond";
+  position: relative;
+  z-index: 1;
+  border: 1px solid #c19d68;
+  transition: 0.5s;
+  box-shadow: none;
 }
 
+/* Responsive Styles */
+@media only screen and (max-width: 1400px) {
+ .enjoy-son {
+   width: 90%;
+ }
+ .title, .btn-en {
+   width: 50%;
+ }
+}
 
+@media only screen and (max-width: 1200px) {
+ .enjoy, .enjoy-son {
+   height: auto;
+ }
+ .title {
+   width: 55%;
+ }
+ .btn-en {
+   width: 45%;
+ }
+}
+
+@media only screen and (max-width: 992px) {
+ .enjoy {
+   padding: 15px 10px;
+ }
+ .enjoy-son {
+   width: 95%;
+ }
+ .title h3 {
+   font-size: 32px;
+   line-height: 38px;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+ .enjoy-son {
+   width: 100%;
+   flex-direction: column;
+ }
+ .title {
+   height: auto;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 15px;
+ }
+ .btn-en {
+   height: auto;
+   width: 100%;
+   justify-content: center;
+   margin-top: 15px;
+ }
+}
+
+@media only screen and (max-width: 576px) {
+ .title h5 {
+   margin-bottom: 10px;
+ }
+ .title h3 {
+   font-size: 28px;
+   line-height: 34px;
+ }
+ .btn-en button {
+   height: 48px;
+   width: auto;
+   padding: 10px 25px;
+   font-size: 15px;
+ }
+}
+
+@media only screen and (max-width: 480px) {
+ .title h5 {
+   font-size: 14px;
+ }
+ .title h3 {
+   font-size: 24px;
+   line-height: 30px;
+ }
+ .btn-en button {
+   padding: 10px 20px;
+   font-size: 14px;
+ }
+}
+
+@media only screen and (max-width: 360px) {
+ .title h3 {
+   font-size: 22px;
+   line-height: 28px;
+ }
+}
