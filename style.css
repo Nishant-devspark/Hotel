@@ -2888,6 +2888,10 @@ border-radius: 50%;
   .white-star {
     padding: 15px;
   }
+ .jhon9{
+  display: flex;
+  gap:15px
+ }
   
   .profile8, .profile8 img {
     height: 50px;
