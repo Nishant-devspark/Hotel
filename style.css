@@ -3065,7 +3065,7 @@ footer {
 
 .roy {
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 15px;
 }
 
@@ -3079,7 +3079,7 @@ footer {
 .cont {
   width: 100%;
   margin-bottom: 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .cont h3 {
@@ -3125,8 +3125,8 @@ footer {
 .face-svg {
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   gap: 15px;
 }
 
