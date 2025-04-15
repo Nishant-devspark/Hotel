@@ -2863,6 +2863,11 @@ border-radius: 50%;
   .home-sec-texta p {
     font-size: 14px;
   }
+  .they{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
 }
 
 /* For small mobile phones */
@@ -2901,5 +2906,10 @@ border-radius: 50%;
   .sec-imga img {
     height: 36px;
     width: 42px;
+  }
+  .they{
+    width: 100%;
+    display: flex;
+    justify-content: end;
   }
 }
